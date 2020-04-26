@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.swift_version = '5.0'
-  spec.ios.deployment_target  = '9.0'
+  s.ios.deployment_target  = '9.0'
 
   s.source       = { :git => "https://github.com/flightonary/Moscapsule.git", :tag => s.version }
 

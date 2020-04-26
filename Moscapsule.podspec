@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.author       = { "tonary" => "nekomelife@gmail.com" }
 
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
+  spec.ios.deployment_target  = '9.0'
 
   s.source       = { :git => "https://github.com/flightonary/Moscapsule.git", :tag => s.version }
 
